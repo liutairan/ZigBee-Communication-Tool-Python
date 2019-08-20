@@ -14,7 +14,7 @@ def constructPacket():
     frameType = 0x11
     frameID = 0x01
     longAddressHigh = 0x0013A200
-    longAddressLow = 0x40C14304
+    longAddressLow = 0x40C1426D # 0x40C14304
     shortAddress = 0xFFFE
     sourceEndpoint = 0xE8
     destinationEndpoint = 0xE8
