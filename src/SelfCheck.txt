@@ -781,3 +781,175 @@ Checksum: D2
 
 -----
 -----
+
+AT Command (API 1)
+
+7E 00 04 08 1C 45 4F 47
+
+Start delimiter: 7E
+Length: 00 04 (4)
+Frame type: 08 (AT Command)
+Frame ID: 1C (28)
+AT Command: 45 4F (EO)
+Checksum: 47
+
+-----
+
+AT Command Response (API 1)
+
+7E 00 06 88 1C 45 4F 00 00 C7
+
+Start delimiter: 7E
+Length: 00 06 (6)
+Frame type: 88 (AT Command Response)
+Frame ID: 1C (28)
+AT Command: 45 4F (EO)
+Status: 00 (Status OK)
+Response: 00
+Checksum: C7
+
+-----
+-----
+
+AT Command (API 1)
+
+7E 00 04 08 1D 4B 59 36
+
+Start delimiter: 7E
+Length: 00 04 (4)
+Frame type: 08 (AT Command)
+Frame ID: 1D (29)
+AT Command: 4B 59 (KY)
+Checksum: 36
+
+-----
+
+AT Command Response (API 1)
+
+7E 00 05 88 1D 4B 59 00 B6
+
+Start delimiter: 7E
+Length: 00 05 (5)
+Frame type: 88 (AT Command Response)
+Frame ID: 1D (29)
+AT Command: 4B 59 (KY)
+Status: 00 (Status OK)
+Checksum: B6
+
+-----
+-----
+
+AT Command (API 1)
+
+7E 00 04 08 1E 4E 4B 40
+
+Start delimiter: 7E
+Length: 00 04 (4)
+Frame type: 08 (AT Command)
+Frame ID: 1E (30)
+AT Command: 4E 4B (NK)
+Checksum: 40
+
+-----
+
+AT Command Response (API 1)
+
+7E 00 05 88 1E 4E 4B 00 C0
+
+Start delimiter: 7E
+Length: 00 05 (5)
+Frame type: 88 (AT Command Response)
+Frame ID: 1E (30)
+AT Command: 4E 4B (NK)
+Status: 00 (Status OK)
+Checksum: C0
+
+-----
+-----
+
+AT Command (API 1)
+
+7E 00 04 08 1F 42 44 52
+
+Start delimiter: 7E
+Length: 00 04 (4)
+Frame type: 08 (AT Command)
+Frame ID: 1F (31)
+AT Command: 42 44 (BD)
+Checksum: 52
+
+-----
+
+AT Command Response (API 1)
+
+7E 00 09 88 1F 42 44 00 00 00 00 07 CB
+
+Start delimiter: 7E
+Length: 00 09 (9)
+Frame type: 88 (AT Command Response)
+Frame ID: 1F (31)
+AT Command: 42 44 (BD)
+Status: 00 (Status OK)
+Response: 00 00 00 07
+Checksum: CB
+
+-----
+-----
+
+AT Command (API 1)
+
+7E 00 04 08 20 4E 42 47
+
+Start delimiter: 7E
+Length: 00 04 (4)
+Frame type: 08 (AT Command)
+Frame ID: 20 (32)
+AT Command: 4E 42 (NB)
+Checksum: 47
+
+-----
+
+AT Command Response (API 1)
+
+7E 00 06 88 20 4E 42 00 00 C7
+
+Start delimiter: 7E
+Length: 00 06 (6)
+Frame type: 88 (AT Command Response)
+Frame ID: 20 (32)
+AT Command: 4E 42 (NB)
+Status: 00 (Status OK)
+Response: 00
+Checksum: C7
+
+-----
+-----
+
+AT Command (API 1)
+
+7E 00 04 08 21 53 42 41
+
+Start delimiter: 7E
+Length: 00 04 (4)
+Frame type: 08 (AT Command)
+Frame ID: 21 (33)
+AT Command: 53 42 (SB)
+Checksum: 41
+
+-----
+
+AT Command Response (API 1)
+
+7E 00 06 88 21 53 42 00 00 C1
+
+Start delimiter: 7E
+Length: 00 06 (6)
+Frame type: 88 (AT Command Response)
+Frame ID: 21 (33)
+AT Command: 53 42 (SB)
+Status: 00 (Status OK)
+Response: 00
+Checksum: C1
+
+-----
+-----
