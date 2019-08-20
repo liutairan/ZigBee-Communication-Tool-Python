@@ -1,3 +1,6 @@
+'''This is an example of using python to send data to a XBee and let it send the
+data packet to another XBee module.'''
+
 import serial
 import struct
 import hashlib
