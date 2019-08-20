@@ -3,7 +3,6 @@ data packet to another XBee module.'''
 
 import serial
 import struct
-import hashlib
 
 def Checksum(dataList):
     checksum = 0xFF - (sum(dataList) & 0xFF)

@@ -1,8 +1,5 @@
 import serial
 import struct
-import hashlib
-
-
 
 def constructPacket():
     total_data = [0x7E, 0x00, 0x04, 0x08, 0x01, 0x49, 0x44]
