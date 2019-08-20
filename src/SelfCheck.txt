@@ -1678,3 +1678,61 @@ Checksum: B3
 
 -----
 -----
+
+AT Command (API 1)
+
+7E 00 04 08 3B 44 42 36
+
+Start delimiter: 7E
+Length: 00 04 (4)
+Frame type: 08 (AT Command)
+Frame ID: 3B (59)
+AT Command: 44 42 (DB)
+Checksum: 36
+
+-----
+
+AT Command Response (API 1)
+
+7E 00 06 88 3B 44 42 00 00 B6
+
+Start delimiter: 7E
+Length: 00 06 (6)
+Frame type: 88 (AT Command Response)
+Frame ID: 3B (59)
+AT Command: 44 42 (DB)
+Status: 00 (Status OK)
+Response: 00
+Checksum: B6
+
+-----
+-----
+
+AT Command (API 1)
+
+7E 00 04 08 3C 25 56 40
+
+Start delimiter: 7E
+Length: 00 04 (4)
+Frame type: 08 (AT Command)
+Frame ID: 3C (60)
+AT Command: 25 56 (%V)
+Checksum: 40
+
+-----
+
+AT Command Response (API 1)
+
+7E 00 07 88 3C 25 56 00 0A CC EA
+
+Start delimiter: 7E
+Length: 00 07 (7)
+Frame type: 88 (AT Command Response)
+Frame ID: 3C (60)
+AT Command: 25 56 (%V)
+Status: 00 (Status OK)
+Response: 0A CC
+Checksum: EA
+
+-----
+-----
