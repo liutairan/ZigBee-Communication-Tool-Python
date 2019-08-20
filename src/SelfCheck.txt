@@ -9,6 +9,8 @@ Frame ID: 01 (1)
 AT Command: 49 44 (ID)
 Checksum: 69
 
+-----
+
 AT Command Response (API 1)
 
 7E 00 0D 88 01 49 44 00 00 00 00 00 00 00 12 34 A3
@@ -21,3 +23,35 @@ AT Command: 49 44 (ID)
 Status: 00 (Status OK)
 Response: 00 00 00 00 00 00 12 34
 Checksum: A3
+
+-----
+-----
+
+AT Command (API 1)
+
+7E 00 04 08 02 53 43 5F
+
+Start delimiter: 7E
+Length: 00 04 (4)
+Frame type: 08 (AT Command)
+Frame ID: 02 (2)
+AT Command: 53 43 (SC)
+Checksum: 5F
+
+-----
+
+AT Command Response (API 1)
+
+7E 00 07 88 02 53 43 00 FF FF E1
+
+Start delimiter: 7E
+Length: 00 07 (7)
+Frame type: 88 (AT Command Response)
+Frame ID: 02 (2)
+AT Command: 53 43 (SC)
+Status: 00 (Status OK)
+Response: FF FF
+Checksum: E1
+
+-----
+-----
