@@ -1446,3 +1446,61 @@ Checksum: A5
 
 -----
 -----
+
+AT Command (API 1)
+
+7E 00 04 08 33 52 50 22
+
+Start delimiter: 7E
+Length: 00 04 (4)
+Frame type: 08 (AT Command)
+Frame ID: 33 (51)
+AT Command: 52 50 (RP)
+Checksum: 22
+
+-----
+
+AT Command Response (API 1)
+
+7E 00 06 88 33 52 50 00 28 7A
+
+Start delimiter: 7E
+Length: 00 06 (6)
+Frame type: 88 (AT Command Response)
+Frame ID: 33 (51)
+AT Command: 52 50 (RP)
+Status: 00 (Status OK)
+Response: 28
+Checksum: 7A
+
+-----
+-----
+
+AT Command (API 1)
+
+7E 00 04 08 34 44 4F 30
+
+Start delimiter: 7E
+Length: 00 04 (4)
+Frame type: 08 (AT Command)
+Frame ID: 34 (52)
+AT Command: 44 4F (DO)
+Checksum: 30
+
+-----
+
+AT Command Response (API 1)
+
+7E 00 06 88 34 44 4F 00 01 AF
+
+Start delimiter: 7E
+Length: 00 06 (6)
+Frame type: 88 (AT Command Response)
+Frame ID: 34 (52)
+AT Command: 44 4F (DO)
+Status: 00 (Status OK)
+Response: 01
+Checksum: AF
+
+-----
+-----
